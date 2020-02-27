@@ -1,6 +1,20 @@
-# Patrick Hinshaw
-# This code uses NFL combine data to predict if an incoming player will
-# will make it into the NFL via the NFL draft.
+ #!/usr/bin/env python
+""" NFL Combine Draft Classifier
+
+ This code uses NFL combine data to predict if an incoming player will
+ will make it into the NFL via the NFL draft, based exclusively on his combine stati.
+ This current code requires you to first preProcess combine.txt in main if you have not already done so.
+ After pre-processing is done, you may comment out that section, unless changes are made to pre-processing algorithm.
+ 
+ The classifier used is Draft round (0-7, 0 being not drafted).
+
+Example:
+    Before running this file, it is assumed that you will also have the 'combine.txt' in the same directory path.
+	It is downloaded from here: http://nflsavant.com/dump/combine.csv?year=2015
+	This site currently only has data from 1999 to 2015.
+	
+        $ python nflCombineClassifier.py
+"""
 
 import matplotlib.pyplot as pyplot
 import numpy
