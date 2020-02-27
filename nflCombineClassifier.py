@@ -9,8 +9,8 @@
  The classifier used is Draft round (0-7, 0 being not drafted).
 
 Example:
-    Before running this file, it is assumed that you will also have the 'combine.txt' in the same directory path.
-	It is downloaded from here: http://nflsavant.com/dump/combine.csv?year=2015
+    Before running this file, it is assumed that you will also have 'combine.txt' in the same directory path.
+	It is downloaded from here in csv form: http://nflsavant.com/dump/combine.csv?year=2015
 	This site currently only has data from 1999 to 2015.
 	
         $ python nflCombineClassifier.py
