@@ -1,1 +1,1 @@
-# This repository is a collection of data science endeavors. 
+# This repository is a collection of my data science endeavors. 
